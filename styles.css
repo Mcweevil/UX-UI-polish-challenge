@@ -17,7 +17,7 @@
 body {
   margin: 0;
   font-family: "fantasy",serif;
-  color: #222;
+  color: #e3def0;
   line-height: 1.4;
 }
 
@@ -26,7 +26,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 16px 24px;
-  background: #eeeeee;
+  background: #7709aa;
   font-family: "times new roman",bold,sans-serif;
 }
 
@@ -38,7 +38,7 @@ nav a {
 .hero {
   padding: 60px 24px;
   text-align: center;
-  background: #dddddd;
+  background: #7709aa;
 }
 
 .about {
@@ -50,24 +50,26 @@ nav a {
 .about-text,
 .about-image {
   flex: 1;
+  color: #0c0b0b;
 }
 
 .image-placeholder {
-  background: #cccccc;
+  background: #7709aa;
   height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #666;
+  color: #8343d6;
 }
 
 .meetings {
   padding: 40px 24px;
+  color: #0c0b0b;
 }
 
 .testimonials {
   padding: 40px 24px;
-  background: #f5f5f5;
+  background: #7709aa;
 }
 
 .signup {
@@ -98,7 +100,7 @@ nav a {
 footer {
   padding: 20px 24px;
   text-align: center;
-  background: #eeeeee;
+  background: #7709aa;
 }
 #banana:active {
   filter: grayscale(100%);
@@ -133,4 +135,17 @@ footer {
 .banan {
   height: 100px;
   width: 100px;
+}
+#rsvpBtn {
+  margin: 10px 0px;
+  height: 100px;
+  width: 200px;
+  font-size: 30px;
+  background-color: #7709aa;
+}
+#join {
+  color: #0c0b0b;
+}
+#rsvpCnt {
+padding: 0 0 0 20px;
 }
